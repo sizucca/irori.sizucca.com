@@ -1,5 +1,5 @@
 class LoginController < ApplicationController
   def index
-    render plain: 'ログインだよ！'
+    render plain: 'Welcome! irori.sizucca.com'
   end
 end
