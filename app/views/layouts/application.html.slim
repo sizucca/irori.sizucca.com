@@ -1,14 +1,17 @@
 doctype html
-html
+html[lang='ja']
   head
+    meta[charset='utf-8']
     title
       | IRORI
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     meta[property='og:title' content='IRORI']
-    meta[property='og:type' content='article']
+    meta[property='og:type' content='website']
     meta[property='og:url' content='https://irori.sizucca.com/']
     meta[property='og:image' content=image_url('og.png')]
+    meta[content="summary_large_image" name="twitter:card"]
+    meta[content='@sizucca_' name='twitter:creator']
   body
     = yield
