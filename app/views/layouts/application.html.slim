@@ -8,10 +8,11 @@ html[lang='ja']
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     meta[property='og:title' content='IRORI']
+    meta[property='og:description' content='Ruby on Rails 5 勉強アプリ（になる予定）']
     meta[property='og:type' content='website']
     meta[property='og:url' content='https://irori.sizucca.com/']
     meta[property='og:image' content=image_url('og.png')]
-    meta[content="summary_large_image" name="twitter:card"]
-    meta[content='@sizucca_' name='twitter:creator']
+    meta[name="twitter:card" content="summary_large_image"]
+    meta[name='twitter:creator' content='@sizucca_']
   body
     = yield
