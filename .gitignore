@@ -21,7 +21,7 @@
 /yarn-error.log
 
 .byebug_history
-/vendor
+/vendor/bundle
 
 # OS system file
 .DS_Store
