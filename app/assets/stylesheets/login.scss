@@ -1,3 +1,19 @@
 // Place all the styles related to the login controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0;
+  padding: 50px;
+  color: #fff;
+  font-family: 'Lato', 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', Arial, sans-serif;
+  background-color: #30a8c9;
+}
+a {
+  color: #fff;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.u-center {
+  text-align: center;
+}
