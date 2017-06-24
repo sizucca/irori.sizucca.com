@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.1.1'
 gem 'slim-rails'
 
+# URL rewrite
+gem 'rack-rewrite'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 gem 'sqlite3', group: :development
